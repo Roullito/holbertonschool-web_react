@@ -6,6 +6,7 @@
   "mode": "development",
   "scripts": {
     "start-dev": "webpack-dev-server",
+    "start": "ts-node js/main.ts",
     "build": "webpack",
     "test": "jest"
   },
@@ -27,6 +28,7 @@
     "source-map": "^0.7.4",
     "ts-jest": "^29.1.1",
     "ts-loader": "^9.4.4",
+    "ts-node": "^10.9.2",
     "typescript": "^4.9.5",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
